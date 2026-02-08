@@ -10,6 +10,7 @@
 function setup() {
 	console.log("setup: ");
 createCanvas(1920, 1080,);
+spriteOne = new Sprite(40, 40, 40, 40,)
 }
 /*******************************************************/
 // draw()
