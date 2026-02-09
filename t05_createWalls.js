@@ -22,17 +22,6 @@ wallTop = new Sprite(0, 600, 40, 40, 'k');
 
 wallBot = new Sprite(0, 1000, 40, 40, 'k');
 
-ball_1 = new Sprite(width/2, height/2, 50, 'd');
-
-ball_1.color = '#87CEEB';
-
-ball_1.vel.x = 2;
-
-ball_1.bounciness = 1;
-
-ball_1.friction = 0;
-
-ball_1.drag = 0;
 
 //shapes
 shape = new Sprite(400, 400, 40, 40);
@@ -40,10 +29,19 @@ shape.color = '#87CEEB';
 shape.rotationSpeed = 2;
 shape.vel.x = 2;
 
-circle = new Sprite(400, 500, 40);
+circle = new Sprite(width/2, height/2, 50, 'd');
+
 circle.color = '#87CEEB';
 
-platform_1 = new Sprite(0, 1040, 1920, 40, 'k');
+circle.vel.x = 2;
+
+circle.bounciness = 1;
+
+circle.friction = 0;
+
+circle.drag = 0;
+
+platform = new Sprite(700, 1040, 1920, 40, 'k');
 }
 /*******************************************************/
 // draw()
