@@ -12,7 +12,7 @@ function setup() {
 createCanvas(1920, 1080,);
 world.gravity.y = 10;
 
-wallLH  = new Sprite(0, height/2, 8, height, 'k');
+wallLH  = new Sprite(0, height/2, 10, height, 'k');
 
 wallLH.color = '#0000';
 
