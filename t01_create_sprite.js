@@ -13,6 +13,9 @@ createCanvas(1920, 1080,);
 
 shape = new Sprite(400, 400, 40, 40);
 shape.color = '#87CEEB';
+
+shape = new Sprite(400, 500, 20);
+shape.color = '#87CEEB';
 }
 /*******************************************************/
 // draw()
