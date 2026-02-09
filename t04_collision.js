@@ -1,7 +1,7 @@
 /*******************************************************/
-// P5.play: t04_collision
-// Sprite falls due to gravity & collides with the floor
-// Written by ???
+// P5.play: t01_create_sprite
+// Create a sprite
+/// Written by ???
 /*******************************************************/
 	
 /*******************************************************/
@@ -9,14 +9,25 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+createCanvas(1920, 1080,);
+world.gravity.y = 10;
 
+//shapes
+shape = new Sprite(400, 400, 40, 40);
+shape.color = '#87CEEB';
+shape.rotationSpeed = 2;
+shape.vel.x = 2;
+
+circle = new Sprite(400, 500, 40);
+circle.color = '#87CEEB';
+
+platform_1 = new Sprite(0, 1080, 1920, 40, 'k');
 }
-	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background(255, 200, 200);
 }
 
 /*******************************************************/
