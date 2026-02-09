@@ -43,8 +43,7 @@ circle.drag = 0;
 
 platform = new Sprite(700, 1040, 1920, 40, 'k');
 
-function fun() {
-	 if (keyIsDown(83)) {
+if (keyIsDown(83)) {
       circle = new Sprite(width/2, height/2, 50, 'd');
 
 circle.color = '#87CEEB';
@@ -57,7 +56,6 @@ circle.friction = 0;
 
 circle.drag = 0;
     }
-}
 
 }
 /*******************************************************/
