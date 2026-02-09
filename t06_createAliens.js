@@ -1,7 +1,7 @@
 /*******************************************************/
-// P5.play: t06_createAliens
-// Create aliens on mouse click
-// Written by ???
+// P5.play: t01_create_sprite
+// Create a sprite
+/// Written by ???
 /*******************************************************/
 	
 /*******************************************************/
@@ -9,14 +9,58 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+createCanvas(1920, 1080,);
+world.gravity.y = 10;
 
+wallLH  = new Sprite(0, height/2, 10, height, 'k');
+
+wallLH.color = '#0000';
+
+wallRH  = new Sprite(0, 200, 40, 40, 'k');
+
+wallTop = new Sprite(0, 600, 40, 40, 'k');
+
+wallBot = new Sprite(0, 1000, 40, 40, 'k');
+
+
+//shapes
+shape = new Sprite(400, 400, 40, 40);
+shape.color = '#87CEEB';
+shape.rotationSpeed = 2;
+shape.vel.x = 2;
+
+circle = new Sprite(width/2, height/2, 50, 'd');
+
+circle.color = '#87CEEB';
+
+circle.vel.x = 2;
+
+circle.bounciness = 1;
+
+circle.friction = 0;
+
+circle.drag = 0;
+
+platform = new Sprite(700, 1040, 1920, 40, 'k');
+
+for (i = 0; i < ; i++) {
+
+  alien = new Sprite(500, 500, 60);
+
+  alien.vel.x = 3;
+
+  alien.vel.y = 4;
+
+  alien.bounciness = 1;
+
+  alien.friction = 0;
 }
-	
+}
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background(255, 200, 200);
 }
 
 /*******************************************************/
