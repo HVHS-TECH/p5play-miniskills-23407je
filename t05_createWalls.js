@@ -22,6 +22,18 @@ wallTop = new Sprite(0, 600, 40, 40, 'k');
 
 wallBot = new Sprite(0, 1000, 40, 40, 'k');
 
+ball_1 = new Sprite(width/2, height/2, 50, 'd');
+
+ball_1.color = '#87CEEB';
+
+ball_1.vel.x = 2;
+
+ball_1.bounciness = 1;
+
+ball_1.friction = 0;
+
+ball_1.drag = 0;
+
 //shapes
 shape = new Sprite(400, 400, 40, 40);
 shape.color = '#87CEEB';
