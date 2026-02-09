@@ -18,9 +18,9 @@ wallLH.color = '#0000';
 
 wallRH  = new Sprite(0, 0, 40, 1920, 'k');
 
-wallTop = new Sprite(0, 600, 40, 40, 'k');
+wallTop = new Sprite(0, 0, 1920, 40, 'k');
 
-wallBot = new Sprite(1920, 0, 40, 1920, 'k');
+wallBot = new Sprite(1920, 0, 40, 1080, 'k');
 
 
 //shapes
