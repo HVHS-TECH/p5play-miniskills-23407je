@@ -21,7 +21,7 @@ shape.vel.x = 2;
 circle = new Sprite(400, 500, 40);
 circle.color = '#87CEEB';
 
-platform_1 = new Sprite(0, 1080, 1880, 40, 'k');
+platform_1 = new Sprite(0, 1080, 1960, 40, 'k');
 }
 /*******************************************************/
 // draw()
