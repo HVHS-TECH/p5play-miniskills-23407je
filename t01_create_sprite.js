@@ -10,8 +10,8 @@
 function setup() {
 	console.log("setup: ");
 createCanvas(1920, 1080,);
-spriteOne = new Sprite(40, 40, 40, 40,)
-	spriteOne.color = '#87CEEB';
+triangle = new Sprite(40, 40, 40, 40,)
+	triangle.color = '#87CEEB';
 }
 /*******************************************************/
 // draw()
