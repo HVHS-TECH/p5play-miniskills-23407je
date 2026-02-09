@@ -20,7 +20,7 @@ wallRH  = new Sprite(0, 0, 40, 1920, 'k');
 
 wallTop = new Sprite(0, 600, 40, 40, 'k');
 
-wallBot = new Sprite(1880, 0, 40, 1920, 'k');
+wallBot = new Sprite(1920, 0, 40, 1920, 'k');
 
 
 //shapes
