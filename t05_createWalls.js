@@ -43,19 +43,6 @@ circle.drag = 0;
 
 platform = new Sprite(700, 1040, 1920, 40, 'k');
 
-if (keyIsDown(83)) {
-      circle = new Sprite(width/2, height/2, 50, 'd');
-
-circle.color = '#87CEEB';
-
-circle.vel.x = 2;
-
-circle.bounciness = 1;
-
-circle.friction = 0;
-
-circle.drag = 0;
-    }
 
 }
 /*******************************************************/
