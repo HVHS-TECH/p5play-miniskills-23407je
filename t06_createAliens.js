@@ -12,7 +12,7 @@ function setup() {
 createCanvas(1920, 1080,);
 wallLH  = new Sprite(0, height/2, 8, height, 'k');
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
-for (i = 5; i < 100; i++) {
+for (i = 0; i < 100; i++) {
 
   alien = new Sprite();
 
