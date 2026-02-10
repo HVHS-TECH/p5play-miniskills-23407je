@@ -16,7 +16,7 @@ world.gravity.y = 10;
 shape = new Sprite(400, 400, 40, 40);
 shape.color = '#87CEEB';
 shape.rotationSpeed = 2;
-shape.vel.x = 2;
+shape.vel.x = 2; 
 
 circle = new Sprite(400, 500, 40);
 circle.color = '#87CEEB';
