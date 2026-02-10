@@ -14,7 +14,7 @@ wallLH  = new Sprite(0, height/2, 8, height, 'k');
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
 for (i = 0; i < 100; i++) {
 
-  alien = new Sprite(...);
+  alien = new Sprite();
 
   alien.vel.x = 3;
 
