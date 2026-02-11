@@ -3,16 +3,13 @@
 // load & display images
 // Written by ???
 /*******************************************************/
-	function preload() {
-
-  imgBG   = loadImage('assets/images/coby.jpg');
-
-  imgFace = loadImage('assets/images/coby.jpg');
-
-}
 /*******************************************************/
 // setup()
 /*******************************************************/
+	function preload() {
+  imgBG   = loadImage('assets/images/coby.jpg');
+  imgFace = loadImage('assets/images/coby.jpg');
+}
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(1920, 1080);
