@@ -21,7 +21,7 @@ wallBot = new Sprite(960, 1080, 1920, 40, 'k');
 
 ball_1 = new Sprite(width/10, height/2, 20, 'd');
 ball_1.vel.x = 10;
-ball_1.bounciness = 1;
+ball_1.bounciness = 1.5;
 alienGroup = new Group();
 
 for (i = 0; i < 10; i++) {
@@ -40,7 +40,6 @@ for (i = 0; i < 10; i++) {
 }
 
 alienGroup.collides(ball_1, func2Call);
-ball_1.bounciness = 1;
 function func2Call(_ssss, _ball_1) {
 // Delete the alien which was hit
 _ssss.remove();
