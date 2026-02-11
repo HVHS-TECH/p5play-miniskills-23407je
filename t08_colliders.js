@@ -15,14 +15,6 @@ wallLH  = new Sprite(0, height/2, 8, height, 'k');
 
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
 
-alienGroup.collides(ball_1, func2Call);
-
-function func2Call(_ssss, _ball_1) {
-
-// Delete the alien which was hit
-
-_ssss.remove();
-}
 alienGroup = new Group();
 
 for (i = 0; i < 100; i++) {
@@ -38,6 +30,13 @@ for (i = 0; i < 100; i++) {
   alien.friction = 0;
 
   alienGroup.add(alien);
+}
+alienGroup.collides(ball_1, func2Call);
+function func2Call(_ssss, _ball_1) {
+
+// Delete the alien which was hit
+
+_ssss.remove();
 }
 }
 	
