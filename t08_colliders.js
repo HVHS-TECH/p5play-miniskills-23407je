@@ -17,7 +17,7 @@ wallRH  = new Sprite(20, 0, 40, 1920, 'k');
 
 wallTop = new Sprite(0, 0, 1920, 40, 'k');
 
-wallBot = new Sprite(0, 1080, 1920, 40, 'k');
+wallBot = new Sprite(960, 1080, 1920, 40, 'k');
 
 ball_1 = new Sprite(width/10, height/2, 20, 'd');
 ball_1.vel.x = 10;
