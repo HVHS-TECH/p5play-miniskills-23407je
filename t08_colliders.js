@@ -13,7 +13,7 @@ cnv = new Canvas(1920, 1080);2
 
 wallLH  = new Sprite(0, height/2, 8, height, 'k');
 
-wallRH  = new Sprite(960, 0, 40, 1920, 'k');
+wallRH  = new Sprite(1900, 0, 40, 1920, 'k');
 
 wallTop = new Sprite(0, 9, 1920, 40, 'k');
 
