@@ -22,6 +22,9 @@ wallBot = new Sprite(960, 1080, 1920, 40, 'k');
 ball_1 = new Sprite(width/10, height/2, 20, 'd');
 ball_1.vel.x = 10;
 alienGroup = new Group();
+if (ball_1.bounciness <= 1) {
+	ball_1.bounciness = 1;
+}
 for (i = 0; i < 100; i++) {
 
   alien = new Sprite();
@@ -43,7 +46,7 @@ function func2Call(_ssss, _ball_1) {
 _ssss.remove();
 }
 if (alienGroup.collides(ball_1)) {
-	ball_1.bounciness + 1.05;
+	ball_1.bounciness + 0.05;
 }
 }
 	
