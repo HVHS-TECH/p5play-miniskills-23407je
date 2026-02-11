@@ -13,7 +13,7 @@ cnv = new Canvas(1920, 1080);2
 
 wallLH  = new Sprite(0, height/2, 8, height, 'k');
 
-ball_1 = new Sprite(width/2, height/2, 20, 'd');
+ball_1 = new Sprite(width/2, height/2, 2, 'd');
 
 alienGroup = new Group();
 
