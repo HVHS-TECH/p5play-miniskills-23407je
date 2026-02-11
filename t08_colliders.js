@@ -21,7 +21,7 @@ wallBot = new Sprite(960, 1080, 1920, 40, 'k');
 
 ball_1 = new Sprite(width/10, height/2, 20, 'd');
 ball_1.vel.x = 10;
-ball_1.bounciness = 1.5;
+ball_1.bounciness = 1.05;
 alienGroup = new Group();
 
 for (i = 0; i < 10; i++) {
