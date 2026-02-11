@@ -7,11 +7,11 @@
 // setup()
 /*******************************************************/
 	function preload() {
-  imgBG   = loadImage('assets/images/coby.jpg');
-  imgFace = loadImage('assets/images/coby.jpg');
+  imgBG   = loadImage('../assets/images/coby.jpg');
+  imgFace = loadImage('../assets/images/coby.jpg');
 }
 function setup() {
-	console.log("setup: ");
+	console.log("setup:t:20");
 cnv = new Canvas(1920, 1080);
 
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
