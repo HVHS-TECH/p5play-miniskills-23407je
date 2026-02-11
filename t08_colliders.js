@@ -24,7 +24,7 @@ ball_1.vel.x = 10;
 ball_1.bounciness = 1.05;
 alienGroup = new Group();
 
-for (i = 0; i < 10; i++) {
+for (i = 0; i < 100; i++) {
 
   alien = new Sprite();
 
