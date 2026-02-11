@@ -40,7 +40,7 @@ for (i = 0; i < 10; i++) {
 }
 
 alienGroup.collides(ball_1, func2Call);
-
+ball_1.bounciness = 1;
 function func2Call(_ssss, _ball_1) {
 // Delete the alien which was hit
 _ssss.remove();
