@@ -10,9 +10,9 @@
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(1020, 1080);
-mousespite = new Sprite(x, y, w, h, 'd');
+mousespite = new Sprite(500, 500, 40, 40, 'd');
 
-mousespite.color = 'ccc';
+mousespite.color = 255,200,200;
 
 mousespite.rotationSpeed = 2;
 }
