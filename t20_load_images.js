@@ -14,7 +14,7 @@ function setup() {
 	console.log("setup:t:20");
 cnv = new Canvas(1920, 1080);
 
-ball_1 = new Sprite(width/2, height/2, 50, 'd');
+ball_1 = new Sprite(width/2, height/2, 500, 'd');
 
 ball_1.bounciness = 1;
 

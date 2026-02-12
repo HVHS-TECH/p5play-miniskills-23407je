@@ -9,14 +9,10 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-createCanvas(1920, 1080,);
+cnv = new Canvas(500, 500);
 
-//shapes
-shape = new Sprite(400, 400, 40, 40);
-shape.color = '#87CEEB';
-
-circle = new Sprite(400, 500, 40);
-circle.color = '#87CEEB';
+red = new Sprite(0 ,0 ,100,100);
+red.color = 'red';
 }
 /*******************************************************/
 // draw()
