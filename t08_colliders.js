@@ -19,6 +19,12 @@ wallTop = new Sprite(960, 0, 1920, 40, 'k');
 
 wallBot = new Sprite(960, 1080, 1920, 40, 'k');
 
+mousesprite = new Sprite(500, 500, 40, 40, 'd');
+
+mousesprite.color = 255,200,200;
+
+mousesprite.rotationSpeed = 2;
+
 ball_1 = new Sprite(width/10, height/2, 20, 'd');
 ball_1.vel.x = 10;
 alienGroup = new Group();
@@ -45,6 +51,11 @@ function func2Call(_ssss, _ball_1) {
 // Delete the alien which was hit
 _ssss.remove();
 }
+alienGroup.collides(mousesprite, func3Call);
+function func3Call(_ssss, _ball_1) {
+// Delete the alien which was hit
+_ssss.remove();
+}
 if (alienGroup.collides(ball_1)) {
 	ball_1.bounciness + 0.05;
 }
@@ -55,6 +66,10 @@ if (alienGroup.collides(ball_1)) {
 /*******************************************************/
 function draw() {
 	background(255, 200, 200);
+  mousesprite.moveTowards(mouseX, mouseY, 0.05);
+if (mouse.presses()) {
+mousesprite.moveTo(mouseX, mouseY, 1);
+}
 }
 
 /*******************************************************/
