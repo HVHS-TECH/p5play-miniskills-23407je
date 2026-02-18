@@ -1,7 +1,5 @@
 /*******************************************************/
-// P5.play: t21_head2Mouse
-// Move sprite towards the mouse' position
-// Written by ???
+// P5.play: minigame
 /*******************************************************/
 	
 /*******************************************************/
@@ -37,14 +35,14 @@ mousesprite.rotationSpeed = 2;
 function draw() {
 	background(255, 200, 200); 
 	if (mouse.pressing()) {
-range = range + 0.3;
-}
-if (mouse.pressing()) {
-mousesprite.moveTo(mouseX, mouseY, range);
+range = range + 0.4;
+var displayrange = round(range, 1);
 }
 if (mouse.released()) {
-	range = 0;
+mousesprite.moveTo(mouseX, mouseY, range);
+range = 0;
 }
+text("Power "+displayrange, 50, 50);
 }
 
 /*******************************************************/
