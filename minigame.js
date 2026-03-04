@@ -81,7 +81,7 @@ function draw() {
 		}
 var displayrange = round(range, 1);
 }
-if (mouse.released()) {
+if (mouse.released & mousesprite.colliding(wallBot)) {
 mousesprite.moveTo(mouseX, mouseY, range);
 range = 0;
 }
